@@ -30,13 +30,15 @@ public class FestivalManager{
 
         Ticket t1 = new Ticket("TICK-123");
         Ticket t2 = new Ticket("TICK-147");
-
+        Ticket t3 = new Ticket("TICK-582");
+        Ticket t4 = new Ticket("TICK-903");
+        Ticket t5 = new Ticket("TICK-123");
 
         ticketCodex.add(t1.codice);
         ticketCodex.add(t2.codice);
-        ticketCodex.add("TICK-582");
-        ticketCodex.add("TICK-903");
-        ticketCodex.add("TICK-123");
+        ticketCodex.add(t3.codice);
+        ticketCodex.add(t4.codice);
+        ticketCodex.add(t5.codice);
         System.out.println("Tickets entrati: " + ticketCodex);
 
         System.out.println("Numero partecipanti: " + ticketCodex.size());
